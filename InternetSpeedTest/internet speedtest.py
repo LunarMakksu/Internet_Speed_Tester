@@ -10,8 +10,6 @@ from pandas import DataFrame as df
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import math
 
-#try python native approach, not tkinter
-
 current_time = datetime.now().strftime("%H:%M:%S")
 print('Propgram started at', current_time)
 s = speedtest.Speedtest(secure=1)
