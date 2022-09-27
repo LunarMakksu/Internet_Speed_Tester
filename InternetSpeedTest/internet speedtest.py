@@ -93,7 +93,6 @@ def downtest():
         if telapse == 10:
             run = False
             print("Download data collected.")
-            time.sleep(2)
             displaydata()
         elif telapse < 10:
             run = True
