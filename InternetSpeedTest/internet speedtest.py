@@ -49,8 +49,6 @@ def uptest():
             run = False
 
 
-
-
 def displaydata():
     root = tk.Tk()
     data1 = {'Time': times_up,
